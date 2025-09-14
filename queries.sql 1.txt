@@ -1,0 +1,24 @@
+1. Get all batsmen
+SELECT name, matches, runs 
+FROM players 
+WHERE role = 'Batsman';
+
+ 2. Find the player with the most wickets
+SELECT name, wickets 
+FROM players 
+ORDER BY wickets DESC 
+LIMIT 1;
+
+3. Get average runs of the team
+SELECT AVG(runs) AS avg_runs 
+FROM players;
+
+ 4. List players who played more than 100 matches
+SELECT name, matches 
+FROM players 
+WHERE matches > 100;
+
+5. Get all-rounders with more than 1000 runs AND 50 wickets
+SELECT name, runs, wickets 
+FROM players 
+WHERE role = 'All-Rounder' AND runs > 1000 AND wickets > 50;

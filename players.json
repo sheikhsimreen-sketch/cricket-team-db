@@ -1,0 +1,47 @@
+[
+  {
+    "player_id": 1,
+    "name": "Rohit Sharma",
+    "role": "Batsman",
+    "age": 36,
+    "matches": 250,
+    "runs": 8000,
+    "wickets": 10
+  },
+  {
+    "player_id": 2,
+    "name": "Jasprit Bumrah",
+    "role": "Bowler",
+    "age": 29,
+    "matches": 120,
+    "runs": 500,
+    "wickets": 200
+  },
+  {
+    "player_id": 3,
+    "name": "Hardik Pandya",
+    "role": "All-Rounder",
+    "age": 30,
+    "matches": 150,
+    "runs": 3500,
+    "wickets": 100
+  },
+  {
+    "player_id": 4,
+    "name": "Suryakumar Yadav",
+    "role": "Batsman",
+    "age": 32,
+    "matches": 100,
+    "runs": 2800,
+    "wickets": 0
+  },
+  {
+    "player_id": 5,
+    "name": "Ishan Kishan",
+    "role": "Wicket-Keeper",
+    "age": 25,
+    "matches": 80,
+    "runs": 2000,
+    "wickets": 0
+  }
+]
